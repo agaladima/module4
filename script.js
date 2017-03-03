@@ -61,10 +61,10 @@ for (var i = 0; i < names.length; i++) {
     var strL = str.toLowerCase();
   if (strL.charAt(0) === "j") {
     // byeSpeaker.xxxx
-    console.log(helloSpeaker.sayhi(str));
+    helloSpeaker.sayhi(str);
   } else {
     // helloSpeaker.xxxx
-    console.log(byeSpeaker.saybi(str));
+    byeSpeaker.saybi(str);
   }
 }
 })();
